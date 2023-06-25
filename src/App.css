@@ -1,0 +1,87 @@
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-table {
+    display: table;
+}
+
+.radio-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-row {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+    .radio-row label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+
+.date-container {
+    position: relative;
+}
+
+.date-picker {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.survey-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+    .survey-table th,
+    .survey-table td {
+        padding: 5px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .survey-table th {
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    .survey-table td {
+        text-align: center;
+    }
